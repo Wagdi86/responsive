@@ -8,6 +8,9 @@ header{
 }
 header h1{
     font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
 }
 p{
     color: green;
@@ -27,7 +30,9 @@ p{
 a{
     color: #fb3c3c;
     padding: 15px;
-    text-decoration: none;    
+    text-decoration: none; 
+    
+
 }
 a:visited{
     color: #fb3c3c;
@@ -44,35 +49,25 @@ nav a:hover{
     color: #fa2a2a;
     font-weight: bold
 }
-nav{
-    
-    
-}
+nav{  }
 nav ul li{
     margin: 0 20px 0 0;
-    display:contents;  
-    
+    display:contents;   
 }
-
 footer{
     font-size: 1.25em;
     color: #222222;
     text-align: center;
 }
 footer a{
-    
 }
 .socialicon{
     height: 40px;
     width: 40px;
-    margin-right: 10px;
-    
-    
+    margin-right: 10px;   
 }
 img{
     max-width: 92%; 
-    
-    
 }
 #portfolio{
     list-style: none;
@@ -83,6 +78,17 @@ img{
     width: 95%;
     margin: 10px 2.5% 0 2.5%;    
     font-size: 18px; 
-    
-
+}
+.profilepic{
+    border-radius: 100%;
+    max-width: 300px;
+    margin: 5px;
+    display: block;  
+}
+h3{
+    margin-right: 10px
+}
+.l1{
+    position: relative;
+    left: 4rem
 }
